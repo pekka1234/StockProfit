@@ -280,6 +280,24 @@
     font-size: 20px;
 }
 
+#uhed{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+
+#ahed{
+    position: absolute;
+    top: 5%;
+    left: 1%;
+}
+
+#shed{
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
 #achvstats{
     display: none;
 }

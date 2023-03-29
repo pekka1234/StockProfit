@@ -106,8 +106,70 @@ function slowchange(){
     setTimeout(function(){slowchange();}, 200);
 }
 
+// list of achievements
+var achcievements = [
+"First trade",
+"100th trade",
+"1000th trade",
+"Risky business",
+"Poor",
+"Wealthy",
+"Rich",
+"Millionaire",
+"Billionaire",
+"Trillionaire",
+"Oily business",
+"Going to the ground",
+"Bzzt",
+"Chop chop",
+"Plant master",
+"Jackpot",
+"To the seas",
+"Feeling reading",
+"Kaboom",
+"Starter",
+"Amateur",
+"Professional",
+"Master",
+"Expert"
+];
+
+var achvdesc = [
+"Make your first step to getting rich",
+"100 trades, experienced trader",
+"1000 trades, master traider",
+"Buy single stocks with all cash!",
+"Wealth to under 20$",
+"Wealth more than 1000$",
+"Wealth more than 100 000$",
+"Millionaire -large amount of money",
+"Billionaire -Super rich",
+"Trillionare -Richest man in the world",
+"Get 10 000 oil stocks",
+"Get 10 000 mining stocks",
+"Get 10 000 eletronics stocks",
+"Get 10 000 wood stokcs",
+"Get 10 000 farming stocks",
+"Get 10 000 casino stokcs",
+"Get 10 000 ship stocks",
+"Get 10 000 book stokcs",
+"Get 10 000 military stocks",
+"Play game for 500 seconds",
+"Play game for 2 000 seconds",
+"Play game for 10 000",
+"Play game for 30 000 seconds"
+];
+
+var achvpics = [
+"chart", "chart", "chart", "chart", "money", "money", "money", "money", "money", "money", "Oil", "Mining", "Electronics", "Wood", 
+"Farming", "Casino", "Ship", "Book", "Military", "clock", "clock", "clock", "clock"
+]
+
 function achv(){
-    // TODO
+    document.getElementById("bsscreen").style.display = "none";
+    document.getElementById("stockscreen").style.display = "none";
+    document.getElementById("newscreen").style.display = "none";
+    document.getElementById("achvstats").style.display = "block";
 }
 
 slowchange();
