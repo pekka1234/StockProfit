@@ -39,3 +39,5 @@ muista tehdä stats peli aika sekunti counter
 gstatic ja muu google roska pois !!!!!!!!!
 
 Myös koodia voi paljon yhdistellä esimerkiki functioiksi ettei tulisis niin paljon toistoa
+
+TAUSTAMUSIIKKI ja ÄÄNIEFEKTIT
