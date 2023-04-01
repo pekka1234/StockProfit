@@ -15,9 +15,12 @@ You can clikc "How to play" button in the game for more info. You can buy & trad
 
 2. Make a desktop shortcut to index.html
 
-3. Open the desktop shortcut
+3. Open the desktop shortcut 
 
 4. Check that your browser does not clear site data when windows are closed so that the progress won't be lost
 
-(Or you can just run the index.html file from place you downloaded the source code)
+Pro tip: when you open the site, press control + or control - until the website looks like the picture above
+
+
+
 
