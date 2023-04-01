@@ -17,5 +17,7 @@ You can clikc "How to play" button in the game for more info. You can buy & trad
 
 3. Open the desktop shortcut
 
+4. Check that your browser does not clear site data when windows is closed so that the progress won't be lost
+
 (Or you can just run the index.html file from place you downloaded the source code)
 
