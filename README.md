@@ -1,4 +1,4 @@
-# StockProfit
+# Stock profit
 Offline stock trading game played in the browser (in development)
 
 Picture of a newly started game:
