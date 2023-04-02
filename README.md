@@ -11,7 +11,7 @@ You can clikc "How to play" button in the game for more info. You can buy & trad
 
 ## Installing
 
-**This game must be run locally by downloading source code and running index.html file, otherwise id won't work**
+**This game must be run locally by downloading source code and running index.html file**
 
 1. Download source code 
 
