@@ -35,6 +35,7 @@ if(localStorage.getItem("Money") == null){
 
     // all trade history, what stock, what amount (stocks and cash), sell or buy. This will be used in some stats counter
     var trade_history = [];
+    var achvunlocked = [];
 
     console.log(data);
 }else{
@@ -44,6 +45,7 @@ if(localStorage.getItem("Money") == null){
     var rescha = eval(localStorage.getItem("Rescha"));
     var stockowns = eval(localStorage.getItem("Stockowns"));
     var stats = eval(localStorage.getItem("Stats"));
+    var achvunlocked = eval(localStorage.getItem("ACHV"));
     var trade_history = JSON.parse(localStorage.getItem("Trades"));
 }
 
@@ -112,12 +114,12 @@ var achcievements = [
 "100th trade",
 "1000th trade",
 "Risky business",
-"Poor",
 "Wealthy",
 "Rich",
 "Millionaire",
 "Billionaire",
 "Trillionaire",
+"Quadrillionaire",
 "Oily business",
 "Going to the ground",
 "Bzzt",
@@ -139,12 +141,12 @@ var achvdesc = [
 "100 trades, experienced trader",
 "1000 trades, master traider",
 "Buy single stocks with all cash!",
-"Wealth to under 20$",
 "Wealth more than 1000$",
 "Wealth more than 100 000$",
 "Millionaire -large amount of money",
 "Billionaire -Super rich",
-"Trillionare -Richest man in the world",
+"Trillionare -Mega rich",
+"Quadrillionaire -Richest man in the world",
 "Get 10 000 oil stocks",
 "Get 10 000 mining stocks",
 "Get 10 000 eletronics stocks",
@@ -164,6 +166,8 @@ var achvpics = [
 "chart", "chart", "chart", "chart", "money", "money", "money", "money", "money", "money", "Oil", "Mining", "Electronics", "Wood", 
 "Farming", "Casino", "Ship", "Book", "Military", "clock", "clock", "clock", "clock"
 ]
+
+
 
 function achv(){
     document.getElementById("bsscreen").style.display = "none";
@@ -470,6 +474,7 @@ function save(){
     localStorage.setItem("Rescha", "[" + rescha.toString() + "]");
     localStorage.setItem("Stats", "[" + stats.toString() + "]");
     localStorage.setItem("Trades", JSON.stringify(trade_history));
+    localStorage.setItem("ACHV", "[" + achvunlocked.toString() + "]");
 
     alert("Progress saved! You can exit now");
     window.onbeforeunload = s => false ? "" : null;
