@@ -11,6 +11,8 @@ You can clikc "How to play" button in the game for more info. You can buy & trad
 
 ## Installing
 
+**This game must be run locally by downloading source code and running index.html file, otherwise id won't work**
+
 1. Download source code 
 
 2. Make a desktop shortcut to index.html
