@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Stock profit 2.0</title>
+    </head>
+
+    <body onclick="sound(0)">
+        <div class="upbar">
+            <h1 class="headline">Stock profit 2.0</h1>
+            <button class="save" onclick="save()">Save & quit</button>
+            <button class="achv" onclick="achv()">Achievements & stats</button>
+        </div> 
+
+        <div class="stocks" id="stockscreen">
+            <h2 class="stockheadline">Stocks</h2>
+            <button class="buttonstocks" id="a" onclick="stock(0)">Oil</button>
+            <button class="buttonstocks" id="b" onclick="stock(1)">Mining</button>
+            <button class="buttonstocks" id="c" onclick="stock(2)">Electronics</button>
+            <button class="buttonstocks" id="d" onclick="stock(3)">Wood</button>
+            <button class="buttonstocks" id="e" onclick="stock(4)">Farming</button>
+            <button class="buttonstocks" id="f" onclick="stock(5)">Casino</button>
+            <button class="buttonstocks" id="g" onclick="stock(6)">Ship</button>
+            <button class="buttonstocks" id="h" onclick="stock(7)">Book</button>
+            <button class="buttonstocks" id="i" onclick="stock(8)">Military</button>
+        </div>
+
+        <div class="stockscreen" id="bsscreen">
+            <h2 class="stockheadline" id="name">Stock Name</h2>
+            <img id="image">
+            <div class="descer">
+                <h3 id="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro maxime reprehenderit a necessitatibus perferendis accusantium ut molestias error aut earum aliquid, ratione sapiente exercitationem. Doloremque id quibusdam commodi quam aperiam.</h3>
+            </div>
+            <div class="value" id="valuefor">
+                <h2 id="value">Price per stock: 69$</h2>
+                <h2 id="change">Recent change: +0%</h2>
+                <h2 id="owned">Stocks owned: 0</h2>
+            </div>
+            <div class="ccc" id="chart_div0"></div>
+            <div id="realbuy">
+                <h1>Buy stocks</h1>
+                <h2 id="bp">Price of one stock: </h2>
+                <h2>Amount of stocks to buy:</h2>
+                <input class="input" id="inbuy">
+                <h1 id="cp">Current price: </h1>
+                <button id="rbuy" onclick="rb()">Confrim purchase</button>
+            </div>
+            <div id="realsell">
+                <h1>Sell stocks</h1>
+                <h2 id="sp">Value per one stock: </h2>
+                <h2 id="ownsell">Amount of owned stocks: </h2>
+                <h2>Amount of stocks to sell:</h2>
+                <input class="input" id="insell">
+                <h1 id="ssp">Current gain: </h1>
+                <button id="rsell" onclick="rs()">Confrim sell</button>
+            </div>
+            <div class="buysell" id="buysellscreen">
+                <button onclick="buy()" class="buy">BUY</button>
+                <button onclick="ba()" id="buyall">Buy with all cash</button>
+                <button onclick="sell()" class="sell">SELL</button>
+                <button onclick="sa()" id="sellall">Sell all</button>
+            </div>    
+        </div>
+
+        <div class="news" id="newscreen">
+            <h2 class="stockheadline">News</h2>
+            <h3 class="new" id="n0"></h3>
+            <h3 class="new" id="n1"></h3>
+            <h3 class="new" id="n2"></h3>
+            <h3 class="new" id="n3"></h3>
+            <h3 class="new" id="n4"></h3>
+            <h3 class="new" id="n5"></h3>
+            <h3 class="new" id="n6"></h3>
+            <h3 class="new" id="n7"></h3>
+            <h3 class="new" id="n8"></h3>
+            <h3 class="new" id="n9"></h3>
+        </div>
+
+        <div class="statbar">
+            <h1 class="money" id="mon">Cash: 100.00$</h1>
+            <h1 class="wealth" id="wel">Wealth: 100.00$</h1>
+            <button class="info" onclick="info()">How to play?</button>
+        </div>
+
+        <div id="achvstats">
+            <h1 id="ahed">Achievements to be unlocked</h1>
+            <div id="achviements">
+                 <div class="achvbox" id="ac0">
+                     <img class="boximg" id="acim0">
+                     <h2 class="ached" id="ached0"></h2>
+                     <h3 class="acdesc" id="acdesc0"></h3>
+                 </div>    
+                 <div class="achvbox" id="ac1">
+                    <img class="boximg" id="acim1">
+                    <h2 class="ached" id="ached1"></h2>
+                    <h3 class="acdesc" id="acdesc1"></h3>
+                </div>  
+                <div class="achvbox" id="ac2">
+                    <img class="boximg" id="acim2">
+                    <h2 class="ached" id="ached2"></h2>
+                    <h3 class="acdesc" id="acdesc2"></h3>
+                </div>  
+                <div class="achvbox" id="ac3">
+                    <img class="boximg" id="acim3">
+                    <h2 class="ached" id="ached3"></h2>
+                    <h3 class="acdesc" id="acdesc3"></h3>
+                </div>  
+                <div class="achvbox" id="ac4">
+                    <img class="boximg" id="acim4">
+                    <h2 class="ached" id="ached4"></h2>
+                    <h3 class="acdesc" id="acdesc4"></h3>
+                </div>  
+                <div class="achvbox" id="ac5">
+                    <img class="boximg" id="acim5">
+                    <h2 class="ached" id="ached5"></h2>
+                    <h3 class="acdesc" id="acdesc5"></h3>
+                </div>  
+            </div>
+
+            <button id="acd" onclick="acdown()">Down (there's more) ↓</button>
+
+            <h1 id="uhed">Unlocked achviements</h1>
+            <div id="uachviements"></div>
+
+            <h1 id="shed">Stats</h1>
+            <div id="stats"></div>
+        </div>
+
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="chartfiles/chart.js"></script>
+        <script src="main.js" type="text/javascript"></script>
+    </body>
+</html>

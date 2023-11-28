@@ -1,0 +1,43 @@
+Pelissä voi ostaa erilaisia osakkeita reaaliajassa, joiden arvo nousee ja laskee ja pysyy tasaisena, mutta ei täysin satunnaisesti, koska:
+-Peliin on koodattu suhdanne älyä, eli osakkeiden arvon vaihtelu on todenmukaista
+
+Pelissä on osake valikko, pääoma laskuri, käteislaskuri
+
+Osakkeiden arvo vaihtelu näkyy myös graafisesti piirretyllä käyrällä
+
+Pelissä oli myös uutisboksi, joka vaikuttaisi osakkeiden arvoihin (pienemmät arvomuutokset vain tapahtuisi itsestään, mutta jos tulee jotain suurempaa tai äkillisempää, niin sen pitää tulla uutisen johdosta esim. Öljyn hinta nousee pilviin)
+
+Peli on selaimessa, mutta se tallentaa tietoja pysyvästi
+
+Myös osaketoimeksiannoista tulee prosentuaalinen maksu, jotta ei voisi heti lunastaa jos vähänkin tulee voitttoa
+
+Peli kooda tehdään alusta asti hyvä laatuisesti ja siististi ja kommentoidaan jottei käy kuin CardGamesAgainstComputerille
+
+Pelissä on myös achievenmtteja
+
+https://webdeasy.de/en/javascript-real-time-charts/ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+google chart api tuossa ylhäällä
+
+Jos sivun ulkonaössä on ongelmia muissa laitteissa, voi kokeilla vaihtaa position relativet absoluyeiksi
+
+jos sivulta yrittää poistua tallentamatta, tulee varoitus
+
+PELIIN VIIMEINEN ACHIEVEMENTTI ON TODELLA SUURI PÄÄOMA MÄÄRÄ, ja kun sen ylittää niin lapäiseen pelin ja tulee loppu screeni,
+missä lukee voitit pelin kun kaikki achievementit ja lukee aika (peli ottaa koko ajan aikaa), sen jälkeen voi vielä jatkaa pelailua
+jos haluaa
+
+Achievementeille myös hauskat nimet
+
+VOI myös tehdä niin että osakkeiden kuvatekstit vaikuttaa oikeasti osakkeiden arvoon, eli esim jokaisella osakkeella yksilöity arvon vaohtelu
+
+desimaali chekkaus, alle ylksi ei riitä
+
+PELI MITTAA MYÖS AIKAA ETTÄ KUINKA KAUN PELAA, mutta peli itsessään ajaton eli ei esim päivää vuotta jne
+
+muista tehdä stats peli aika sekunti counter
+
+gstatic ja muu google roska pois !!!!!!!!!
+
+Myös koodia voi paljon yhdistellä esimerkiki functioiksi ettei tulisis niin paljon toistoa
+
+TAUSTAMUSIIKKI ja ÄÄNIEFEKTIT
